@@ -1,6 +1,24 @@
-.bgColor{
-	background-color: blueviolet;
+
 }
 main{
 	font-size: 35px;
+}
+
+.img-fluid{
+	height: 20px;
+	width: 20 px;
+	align-content: space-between;
+}
+.card{
+	background-color: transparent;
+}
+
+
+@media and only screen (max-widht: 768px){
+	.imgIndex{
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;}
+
 }
